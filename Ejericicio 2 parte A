@@ -1,0 +1,55 @@
+alumnot@alumnot:~$ cd /home/alumnot/Documentos/
+alumnot@alumnot:~/Documentos$ mkdir danielarroyoED2
+alumnot@alumnot:~/Documentos$ cd danielarroyoED2/
+alumnot@alumnot:~/Documentos/danielarroyoED2$ git init
+Inicializado repositorio Git vacío en /home/alumnot/Documentos/danielarroyoED2/.git/
+alumnot@alumnot:~/Documentos/danielarroyoED2$ mkdir repoexamen
+alumnot@alumnot:~/Documentos/danielarroyoED2$ cd repoexamen/
+alumnot@alumnot:~/Documentos/danielarroyoED2/repoexamen$ mkdir danielarrotoEX2
+alumnot@alumnot:~/Documentos/danielarroyoED2/repoexamen$ mkdir src
+alumnot@alumnot:~/Documentos/danielarroyoED2/repoexamen$ cd src
+alumnot@alumnot:~/Documentos/danielarroyoED2/repoexamen/src$ cd ..
+alumnot@alumnot:~/Documentos/danielarroyoED2/repoexamen/danielarroyoEX2$ cd ..
+alumnot@alumnot:~/Documentos/danielarroyoED2/repoexamen$ cd ..
+alumnot@alumnot:~/Documentos/danielarroyoED2$ git add repoexamen/danielarroyoEX2/src/Test.java 
+alumnot@alumnot:~/Documentos/danielarroyoED2$ git status
+En la rama master
+
+No hay commits todavía
+
+Cambios a ser confirmados:
+  (usa "git rm --cached <archivo>..." para sacar del área de stage)
+
+	nuevo archivo:  repoexamen/danielarroyoEX2/src/Test.java
+
+alumnot@alumnot:~/Documentos/danielarroyoED2$ git commit -m "examen"
+[master (commit-raíz) a6a6cdb] examen
+ 1 file changed, 25 insertions(+)
+ create mode 100644 repoexamen/danielarroyoEX2/src/Test.java
+alumnot@alumnot:~/Documentos/danielarroyoED2$ git status
+En la rama master
+nada para hacer commit, el árbol de trabajo esta limpio
+alumnot@alumnot:~/Documentos/danielarroyoED2$ git remote add origin https://github.com/danieldat/DanielArroyoED2.git
+alumnot@alumnot:~/Documentos/danielarroyoED2$ git push -u origin master
+Username for 'https://github.com': daniel.arroyo.torvisco@gmail.com
+Password for 'https://daniel.arroyo.torvisco@gmail.com@github.com': 
+Contando objetos: 6, listo.
+Delta compression using up to 5 threads.
+Comprimiendo objetos: 100% (2/2), listo.
+Escribiendo objetos: 100% (6/6), 587 bytes | 587.00 KiB/s, listo.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/danieldat/DanielArroyoED2.git
+ * [new branch]      master -> master
+Rama 'master' configurada para hacer seguimiento a la rama remota 'master' de 'origin'.
+
+alumnot@alumnot:~/Documentos/danielarroyoED2$ git log
+commit a6a6cdbcf702293ca346b2e811798acc12d16215 (HEAD -> master, origin/master)
+Author: daniel <daniel.arroyo.torvisco@gmail.com>
+Date:   Wed Mar 4 17:31:26 2020 +0100
+
+
+
+
+
+
+
